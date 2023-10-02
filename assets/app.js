@@ -4,8 +4,6 @@ const colEls = gameBoardEl.children;
 const statusMessageEl = document.querySelector("#status-message");
 const restartButton = document.getElementById("restartGame");
 
-restartButton.style.visibility = "hidden";
-
 // State:
 const gameBoard = [
   [null, null, null],
@@ -16,6 +14,8 @@ const gameBoard = [
 const players = [1, 2];
 
 let playerTurn = 1;
+
+restartButton.style.visibility = "hidden";
 
 statusMessageEl.textContent = "It's strawberry's turn.";
 

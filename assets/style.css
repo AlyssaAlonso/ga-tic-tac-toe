@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: bisque;
+  font-family: "Alice", serif;
+  color: #833214;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 55px;
+  margin: 10px auto 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+  margin: 10px auto 0 auto;
+}
+
+button {
+  background-color: #ffb03a;
+  color: #833214;
+  font-size: 20px;
+  font-family: "Alice", serif;
+  margin: 5px 0px;
+  padding: 8px;
+  border: 6px solid #ffcb65;
+  /* border-radius: 20px; */
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #f38838;
+}
+
+#game-board {
+  width: 32vw;
+  height: 32vw;
+  display: flex;
+  border: solid #ffcb65;
+  border-width: 1.5vw;
+  /* background-color: black; */
+}
+
+.col {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+}
+
+.cell {
+  height: calc(100% / 3);
+  border: solid #ffcb65;
+  border-width: 0.5vw;
+  background-color: #ffb03a;
+  background-size: 8vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cell:hover {
+  cursor: pointer;
+  background-color: #f38838;
+}

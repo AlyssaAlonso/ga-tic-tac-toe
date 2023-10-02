@@ -90,7 +90,7 @@ const render = () => {
         cell.style.backgroundImage =
           gameBoard[colIdx][cellIdx] === 1
             ? "url('./assets/strawberry.png')"
-            : "url('../assets/blueberry.png')";
+            : "url('./assets/blueberry.png')";
       }
     });
   });

@@ -73,3 +73,15 @@ button:hover {
   cursor: pointer;
   background-color: #fc9c23;
 }
+
+@media (max-width: 500px) {
+  #game-board {
+    width: 70vw;
+    height: 70vw;
+  }
+
+  .cell {
+    background-size: 16vw;
+    border-width: 1vw;
+  }
+}
